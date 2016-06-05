@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+		
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="onsenui/css/onsenui.css">
+		<link rel="stylesheet" type="text/css" href="onsenui/css/onsen-css-components.css">
+		<script src="neeler.js"></script>
+		<script src="onsenui/js/onsenui.js"></script>		
+		<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <title>Hello World</title>
+    </head>
+	<script>
+  ons.bootstrap();
+</script>
+    <ons-page>
+  <ons-toolbar style="background-color: #F1775C;">
+    <div class="left">
+      <ons-toolbar-button onclick="prev();">
+        <ons-icon icon="md-chevron-left"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+    <div class="center">Resume</div>
+    <div class="right">
+      <ons-toolbar-button onclick="next();">
+        <ons-icon icon="md-chevron-right"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+  </ons-toolbar>
+<body>
+  <ons-carousel fullscreen swipeable overscrollable auto-scroll id="carousel">
+  <ons-carousel-item >
+	<div  style="text-align:center ; margin-top:10px">
+	 <ons-icon icon="ion-person"></ons-icon>
+     <div style="margin-top:0px"><h6>Basic Information</h6 ></div>
+	
+	 <div style = "border-style:solid ; border-width:1px ; margin-top: 40px ;border-color:#FFEC00"></div>
+	 <p style="text-align:left ; margin-left:20px" >
+		Name: <b>Neelkant K Jain </b></br> </br></br>
+		Email :<b>neeljain14@gmail.com</b> </br></br></br>
+		Phone : <b>+918892434667</b> </br></br></br>
+		</p>
+	 </div>
+  </ons-carousel-item>
+  <ons-carousel-item>
+     <div  style="text-align:center ; margin-top:10px">
+	 <ons-icon icon="ion-university"></ons-icon>
+    <div style="margin-top:0px"><h6>Education</h6 ></div>
+	 <div style = "border-style:solid ; border-width:1px ; margin-top: 40px ; border-color:#00FF9B"></div>
+	 <p style="text-align:left ; margin-left:20px" >
+	 <div  style"text-align:center">
+		<b>Bachelor of Engineering in CSE </br> Acharya Institute of Technology </br>2013-2017</br>VTU </b></br> </br></br>
+		<b>Pre-University </br> Kempegowda PU college </br>2011-2013 </br> Karnataka Board</b> </br></br></br>
+		<b>Bishop Sargant School </br>1998-2011</br>ICSE Board  </b> </br></br></br>
+		</div>
+		</p>
+	 </div>
+  </ons-carousel-item>
+   <ons-carousel-item >
+	<div  style="text-align:center ; margin-top:10px">
+	 <ons-icon icon="ion-code"></ons-icon>
+    <div style="margin-top:0px"><h6>Technical Skills</h6 ></div>
+	 <div style = "border-style:solid ; border-width:1px ; margin-top: 40px ;border-color:#0059FF"></div>
+	 <p style="text-align:left ; margin-left:20px" >
+		<ons-icon icon="cog"></ons-icon>
+		 <b>Android App development using Android Studio </b></br></br> 
+		 <ons-icon icon="cog"></ons-icon>
+		<b>C/C++</b> </br></br>
+		<ons-icon icon="cog"></ons-icon>
+		 <b>HTML/CSS</b> </br></br>
+		 <ons-icon icon="cog"></ons-icon>
+		 <b>Database Management with SQL</b> </br></br>
+		 <ons-icon icon="cog"></ons-icon>
+		 <b>Video Editing with Adobe After Effects</b> </br></br>
+		</p>
+	 </div>
+  </ons-carousel-item>
+   <ons-carousel-item >
+	<div  style="text-align:center ; margin-top:10px">
+	 <ons-icon icon="ion-hammer"></ons-icon>
+    <div style="margin-top:0px"><h6>Projects</h6 ></div>
+	 <div style = "border-style:solid ; border-width:1px ; margin-top: 40px ;border-color:#FF007C"></div>
+	 <p style="text-align:center ;margin-top: 70px" >
+		 <b>Acharya One </br>(Android)</br> </br></br></br>
+			Locked Out </br>(Android) </b> </br></br>
+		</p>
+	 </div>
+  </ons-carousel-item>
+  <ons-carousel-item >
+	<div  style="text-align:center ; margin-top:10px">
+	 <ons-icon icon="ion-cube"></ons-icon>
+     <div style="margin-top:0px"><h6>Interests</h6 ></div>
+	
+	 <div style = "border-style:solid ; border-width:1px ; margin-top: 40px ;border-color:#B6FF00"></div>
+	 <p style="text-align:left ; margin-left:20px" >
+		
+		<b> Solving puzzles </br> </br></br>
+		
+		 Cubing </br></br></br>
+		
+		 Trivia hunts </b>
+		</p>
+	 </div>
+  </ons-carousel-item>
+</ons-carousel>
+</ons-page>
+</body>
+</html>
+
